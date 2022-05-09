@@ -2,6 +2,6 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: |
-      echo 'TODO: build project'
+      pip install gitlabber && brew install mr perl-build yq
     command: |
       echo 'TODO: start app'
