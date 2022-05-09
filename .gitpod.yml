@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: ghcr.io/apeckham/gitpod-test:master
 tasks:
   - init: |
       brew install mr perl-build yq
